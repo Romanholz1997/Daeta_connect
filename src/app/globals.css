@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+:root {
+  --background: #ffffff;
+  --foreground: #262626;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #262626;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.gradient-border {
+  border-top: 1px solid transparent; /* Adjust thickness as needed */
+  background-image: linear-gradient(to left, #262626, #F7FF9A, #262626);
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+}
+.loading-text {
+  font-weight: bold;
+  font-size: 24px;
+  background: linear-gradient(90deg, #F7FF9A, #FFFFFF);
+  background-size: 200% 100%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+      background-position: 200% 0;
+  }
+  100% {
+      background-position: 0 0;
+  }
+}
