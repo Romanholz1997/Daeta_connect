@@ -6,7 +6,7 @@ import Loading from './Loading';
 
 const Home: React.FC = () => {
     return (
-        <div>
+        <div className='w-full h-full'>
             <Loading/>
         </div>
     );
