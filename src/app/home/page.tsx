@@ -27,7 +27,8 @@ const Home: React.FC = () => {
                     <div className='flex flex-col w-full items-center py-5 px-16 bg-[#262626] rounded-t-xl h-3/4 space-y-2'>
                         <p className='font-bold text-[32px] font-mono text-center'>HOW IT WORK?</p>
                         <span className="gradient-border block w-full h-[3px] z-[600]"></span>
-                        <p className='font-normal text-[19px] font-mono text-center text-white text-opacity-50'>Want to know how Origent empowers AI? Click here to uncover the magic behind this innovation.</p>
+                        <p className='font-normal text-[19px] font-mono text-center text-white text-opacity-50'>Want to know how DÆTA empowers AI?
+                        Click here to learn more.</p>
                     </div>
                     <button type='button' className='flex w-full border-t-[#F7FF9A] border-t border-opacity-50 items-center justify-center space-x-2 p-5 bg-[#191919] rounded-b-xl h-1/4 text-[#F7FF9A]  hover:bg-[#F7FF9A] hover:text-[#262626]'>
                         <p className='font-bold text-[21px] font-mono'>READ MORE </p>
@@ -46,7 +47,7 @@ const Home: React.FC = () => {
                     </button>
                 </div>
             </div>
-            <p className='text-[12px] text-white text-opacity-50 z-[600] font-mono mt-0 md:mt-[250px] text-center p-5'>By clicking continue you agree to our Terms of Service & Privacy Policy</p>
+            <p className='text-[12px] text-white text-opacity-50 z-[600] font-mono mt-0 md:mt-[300px] text-center p-5'>By clicking continue you agree to our Terms of Service & Privacy Policy</p>
         </div>
     );
 };
