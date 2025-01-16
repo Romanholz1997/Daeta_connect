@@ -41,7 +41,7 @@ const MatrixRain: React.FC = () => {
         return () => clearInterval(interval);
     }, []);
 
-    return <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-[100%] "/>;
+    return <canvas ref={canvasRef} className="absolute top-0 left-0 w-full h-[100%] z-[-1px]"/>;
 };
 
 export default MatrixRain;
